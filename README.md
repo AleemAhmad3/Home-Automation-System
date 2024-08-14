@@ -1,6 +1,8 @@
 Home Automation Android App
 Overview
 This project is a feature-rich home automation system that allows users to control and monitor various household devices remotely. Built using XML, Java, and Firebase, the app interfaces with an Arduino NodeMCU to manage devices and gather environmental data, such as temperature and humidity. The project comprises five key modules: Authentication, Profile Management, Settings, Device Control, and Temperature & Humidity Monitoring.
+![Image](https://github.com/user-attachments/assets/0ed90773-1f0c-4a19-8bc2-44426c9c9bc1)
+
 
 Features
 1. Authentication
