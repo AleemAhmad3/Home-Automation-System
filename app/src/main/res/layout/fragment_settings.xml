@@ -1,0 +1,136 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:textSize="32dp"
+            android:fontFamily="@font/kanit_font"/>
+
+
+        <!-- Dark Mode Switch -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center"
+                android:fontFamily="@font/kanit_semi_bold"
+                android:text="Dark Mode"
+                android:textSize="15dp"
+                tools:ignore="TextSizeCheck" />
+
+            <Switch
+                android:id="@+id/switch_dark_mode"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginLeft="200dp"
+                android:minHeight="48dp"
+                android:textSize="48dp"
+                android:thumb="@drawable/thumb_switch"
+                android:track="@drawable/track_switch"
+                tools:ignore="TouchTargetSizeCheck" />
+        </LinearLayout>
+
+        <!-- User Profile Section -->
+        <TextView
+            android:id="@+id/user_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/kanit_font"
+            android:text="User Profile"
+            android:layout_margin="5dp"
+            android:padding="8dp"/>
+
+
+
+
+
+        <!-- Contact Section -->
+        <TextView
+            android:id="@+id/textView_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:fontFamily="@font/kanit_font"
+            android:minHeight="48dp"
+            android:padding="8dp"
+            android:text="Contact Us" />
+
+
+
+        <!-- Support Section -->
+        <TextView
+
+            android:id="@+id/textView_support"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:fontFamily="@font/kanit_font"
+            android:minHeight="48dp"
+            android:padding="8dp"
+            android:text="Support" />
+
+        <!-- Send Feedback Section -->
+        <TextView
+            android:id="@+id/textView_send_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:fontFamily="@font/kanit_font"
+            android:minHeight="48dp"
+            android:padding="8dp"
+            android:text="Send Feedback" />
+
+        <!-- Help Section -->
+        <TextView
+            android:id="@+id/textView_help"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:fontFamily="@font/kanit_font"
+            android:minHeight="48dp"
+            android:padding="8dp"
+            android:text="Help" />
+        <!-- About Section -->
+        <TextView
+            android:id="@+id/textView_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:fontFamily="@font/kanit_font"
+            android:minHeight="48dp"
+            android:padding="8dp"
+            android:text="About" />
+        <!-- App Version -->
+        <TextView
+            android:layout_marginTop="250dp"
+            android:id="@+id/textView_app_version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/kanit_font"
+            android:text="App Version 1.0"
+            android:textAlignment="center"
+            android:padding="8dp"/>
+    </LinearLayout>
+</ScrollView>

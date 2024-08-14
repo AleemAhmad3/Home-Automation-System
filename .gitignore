@@ -1,0 +1,37 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+# Exclude generated build files
+local.properties
+
+# Firebase-specific files
+google-services.json
+# Prevent exposing API keys
+**/apikeys.properties
+**/secrets.properties
+
+# Java-specific files
+*.class
+
+# Arduino-specific files
+.vscode/
+*.ino~
+build/
+
+# General files
+*.log
+*.tmp
+*.bak
+Thumbs.db
