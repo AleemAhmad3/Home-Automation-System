@@ -40,8 +40,8 @@ Setup and Installation
 1. Clone the Repository
 bash
 Copy code
-git clone https://github.com/yourusername/home-automation-android-app.git
-cd home-automation-android-app
+git clone https://github.com/AleemAhmad3/Home-Automation-System.git
+
 2. Configure Firebase
 Create a Firebase project.
 Add your Android app to the Firebase project.
